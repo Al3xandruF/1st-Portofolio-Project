@@ -23,6 +23,7 @@ font-family: 'Space Mono', monospace;
 
 #menu li {
     display: inline;
+    word-spacing: 1rem;
 }
 
 .no-underline {
@@ -40,17 +41,17 @@ img {
     font-family: 'Space Mono', monospace, 'sans-serif';
     margin-top: 10.4%;
     padding: 1rem;
-    width: 700px;
     float: right;
-    
+    background-color: rgba(163, 94, 15, 64);
 }
 
-#videos_section {
-    font-family: 'Space Mono', 'sans-serif';
-    margin-right: 75%;
-    margin-top: 12%;
-    text-align: center;
+#scroll {
+    width: 700px;
+    height: 950px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
+
 
 .olson {
     text-align: left;
@@ -70,4 +71,11 @@ img {
 
 .pearlman {
     text-align: left;
+}
+
+#videos_section {
+    font-family: 'Space Mono', 'sans-serif';
+    margin-right: 75%;
+    margin-top: 12%;
+    text-align: center;
 }
