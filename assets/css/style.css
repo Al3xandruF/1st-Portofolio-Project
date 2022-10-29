@@ -14,12 +14,20 @@ font-family: 'Space Mono', monospace;
     color: rgba(214, 100, 0, 84);
 }
 
+#menu {
+    font-family: 'Audiowide', 'sans-serif';
+    list-style: none;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#menu li {
+    display: inline;
+}
+
 .no-underline {
     text-decoration: none;
 }
-
-
-
 
 img {
     width: 180px;
@@ -30,13 +38,18 @@ img {
 
 #inventors_section {
     font-family: 'Space Mono', monospace, 'sans-serif';
+    margin-top: 10.4%;
+    padding: 1rem;
     width: 700px;
     float: right;
     
 }
 
 #videos_section {
-
+    font-family: 'Space Mono', 'sans-serif';
+    margin-right: 75%;
+    margin-top: 12%;
+    text-align: center;
 }
 
 .olson {
