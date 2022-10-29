@@ -39,15 +39,17 @@ img {
 
 #inventors_section {
     font-family: 'Space Mono', monospace, 'sans-serif';
-    margin-top: 10.3%;
+    height: 800px;
     padding: 1rem;
     float: right;
+    position: relative;
+    top: 5rem;
     background-color: rgba(163, 94, 15, 64);
 }
 
 #scroll {
     width: 700px;
-    height: 968px;
+    height: 800px;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -76,7 +78,12 @@ img {
 #videos_section {
     font-family: 'Space Mono', 'sans-serif';
     margin-right: 75%;
-    margin-top: 12%;
     text-align: center;
+    width: 350px;
+    height: 800px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    top: 5rem;
     background-color: rgba(163, 94, 15, 64);
 }
