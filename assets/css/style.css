@@ -1,8 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bungee+Shade&family=Space+Mono&display=swap');
+
+/*
+font-family: 'Audiowide', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Space Mono', monospace;
+*/
 
 
+#logo {
+    font-family: 'Bungee Shade', cursive, 'sans-serif';
+    text-align: center;
+    text-decoration: none;
+    color: rgba(214, 100, 0, 84);
+}
 
-
-
+.no-underline {
+    text-decoration: none;
+}
 
 
 
@@ -12,4 +26,35 @@ img {
     height: auto;
     object-fit: contain;
     background: no-repeat;
+}
+
+#inventors_section {
+    font-family: 'Space Mono', monospace, 'sans-serif';
+    width: 700px;
+    float: right;
+    
+}
+
+#videos_section {
+
+}
+
+.olson {
+    text-align: left;
+}
+
+.moog {
+    text-align: right;
+}
+
+.smith {
+    text-align: left;
+}
+
+.oberheim {
+    text-align: right;
+}
+
+.pearlman {
+    text-align: left;
 }
