@@ -39,7 +39,7 @@ img {
 
 #inventors_section {
     font-family: 'Space Mono', monospace, 'sans-serif';
-    margin-top: 10.4%;
+    margin-top: 10.3%;
     padding: 1rem;
     float: right;
     background-color: rgba(163, 94, 15, 64);
@@ -78,4 +78,5 @@ img {
     margin-right: 75%;
     margin-top: 12%;
     text-align: center;
+    background-color: rgba(163, 94, 15, 64);
 }
