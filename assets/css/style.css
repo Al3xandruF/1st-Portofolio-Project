@@ -8,6 +8,7 @@ font-family: 'Space Mono', monospace;
 
 body {
     font-family: 'Space Mono', monospace;
+    background-image: url('assets/images/moog_one_1.jpg')
 }
 
 #logo {
@@ -30,10 +31,12 @@ body {
     margin-bottom: 50px;
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 #menu a {
     text-decoration: none;
+    color: black;
 }
 
 #menu li {
@@ -45,7 +48,7 @@ body {
     height: 10px;
     display: flex;
     justify-content: center;
-    background-color: rgba(186, 0, 0, 73);
+    background-color: rgba(186, 109, 0, 73);
 }
 
 img {
@@ -117,13 +120,4 @@ h2 {
     overflow-y: auto;
     color: rgba(200, 201, 204, 80);
     background-color: rgba(153, 25, 0, 60);
-}
-
-#horizontal_two {
-    width: auto;
-    height: 10px;
-    margin-top: 0;
-    background-color: rgba(186, 0, 0, 73);
-    position: absolute;
-    bottom: 0px;
 }
