@@ -12,17 +12,21 @@ body {
 
 #logo {
     font-family: 'Bungee Shade', cursive, 'sans-serif';
+    font-size: 4rem;
     text-align: center;
     text-decoration: none;
     color: rgba(214, 100, 0, 84);
+    word-spacing: 1rem;
 }
 
 #menu {
     font-family: 'Audiowide', cursive;
+    font-size: 1.2rem;
+    text-align: center;
     list-style: none;
+    margin-top: 1%;
     margin-bottom: 50px;
     display: flex;
-    justify-content: center;
     justify-content: space-evenly;
 }
 
@@ -34,6 +38,12 @@ body {
     display: inline;
 }
 
+#horizontal_one {
+    width: auto;
+    height: 20px;
+    background-color: rgba(0, 113, 153, 60);
+}
+
 img {
     width: 180px;
     height: auto;
@@ -43,12 +53,15 @@ img {
 
 #inventors_section {
     float: right;
+    margin-top: 2%;
+    padding-right: 1.9%;
+    margin-bottom: 0;
 }
 
 .inventors_main {
     font-family: 'Space Mono', monospace, 'sans-serif';
-    width: 600px;
-    height: 700px;
+    width: 800px;
+    height: 800px;
     padding-left: 1.7%;
     padding-right: 1.7%;
     overflow-x: hidden;
@@ -80,16 +93,40 @@ h3 {
     margin: 0;
 }
 
+h2 {
+    margin-top: 0;
+}
+
 #videos_section {
     float: left;
+    margin-top: 2%;
+    margin-bottom: 10%;
 }
 
 .videos_main {
     font-family: 'Space Mono', 'sans-serif';
-    text-align: center;
     width: 350px;
-    height: 700px;
+    height: 800px;
+    text-align: center;
     overflow-x: hidden;
     overflow-y: auto;
     background-color: rgba(163, 94, 15, 64);
+}
+
+#vertical_one {
+    width: 20px;
+    height: 1000px;
+    margin-top: 0.5rem;
+    margin-left: 25rem;
+    background-color: rgba(194, 47, 0, 76);
+}
+
+#horizontal_two {
+    width: 1000px;
+    height: 20px;
+    margin-top: 0;
+    background-color: rgba(0, 113, 153, 60);
+    float: right;
+    position: relative;
+    top: -20px;
 }
