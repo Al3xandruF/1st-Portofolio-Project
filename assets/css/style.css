@@ -20,11 +20,6 @@ font-family: 'Space Mono', monospace;
     text-align: center;
 }
 
-#menu li {
-    display: inline;
-    word-spacing: 1rem;
-}
-
 .no-underline {
     text-decoration: none;
 }
@@ -72,6 +67,10 @@ img {
     text-align: left;
 }
 
+h3 {
+    margin: 0;
+}
+
 #videos_section {
     font-family: 'Space Mono', 'sans-serif';
     margin-right: 75%;
@@ -81,8 +80,4 @@ img {
     overflow-x: hidden;
     overflow-y: auto;
     background-color: rgba(163, 94, 15, 64);
-}
-
-h3 {
-    margin: 0;
 }
