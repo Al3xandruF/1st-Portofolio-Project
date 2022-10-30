@@ -6,6 +6,9 @@ font-family: 'Bungee Shade', cursive;
 font-family: 'Space Mono', monospace;
 */
 
+body {
+    font-family: 'Space Mono', monospace;
+}
 
 #logo {
     font-family: 'Bungee Shade', cursive, 'sans-serif';
@@ -15,13 +18,20 @@ font-family: 'Space Mono', monospace;
 }
 
 #menu {
-    font-family: 'Audiowide', 'sans-serif';
+    font-family: 'Audiowide', cursive;
     list-style: none;
-    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
 }
 
-.no-underline {
+#menu a {
     text-decoration: none;
+}
+
+#menu li {
+    display: inline;
 }
 
 img {
@@ -32,20 +42,19 @@ img {
 }
 
 #inventors_section {
-    font-family: 'Space Mono', monospace, 'sans-serif';
-    padding-left: 2%;
-    padding-right: 2%;
     float: right;
+}
+
+.inventors_main {
+    font-family: 'Space Mono', monospace, 'sans-serif';
+    width: 600px;
+    height: 700px;
+    padding-left: 1.7%;
+    padding-right: 1.7%;
+    overflow-x: hidden;
+    overflow-y: auto ;
     background-color: rgba(163, 94, 15, 64);
 }
-
-#scroll {
-    width: 600px;
-    height: 680px;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-
 
 .olson {
     text-align: left;
@@ -72,11 +81,14 @@ h3 {
 }
 
 #videos_section {
+    float: left;
+}
+
+.videos_main {
     font-family: 'Space Mono', 'sans-serif';
-    margin-right: 75%;
     text-align: center;
     width: 350px;
-    height: 712px;
+    height: 700px;
     overflow-x: hidden;
     overflow-y: auto;
     background-color: rgba(163, 94, 15, 64);
