@@ -15,8 +15,10 @@ body {
     font-size: 4rem;
     text-align: center;
     text-decoration: none;
-    color: rgba(214, 100, 0, 84);
+    color: rgba(186, 109, 0, 73);
     word-spacing: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 #menu {
@@ -41,7 +43,9 @@ body {
 #horizontal_one {
     width: auto;
     height: 10px;
-    background-color: rgba(0, 113, 153, 60);
+    display: flex;
+    justify-content: center;
+    background-color: rgba(186, 0, 0, 73);
 }
 
 img {
@@ -66,7 +70,8 @@ img {
     padding-right: 1.7%;
     overflow-x: hidden;
     overflow-y: auto ;
-    background-color: rgba(163, 94, 15, 64);
+    color: rgba(200, 201, 204, 80);
+    background-color: rgba(153, 25, 0, 60);
 }
 
 .olson {
@@ -110,23 +115,15 @@ h2 {
     text-align: center;
     overflow-x: hidden;
     overflow-y: auto;
-    background-color: rgba(163, 94, 15, 64);
-}
-
-#vertical_one {
-    width: 10px;
-    height: 1000px;
-    margin-top: 0.5rem;
-    margin-left: 25rem;
-    background-color: rgba(194, 47, 0, 76);
+    color: rgba(200, 201, 204, 80);
+    background-color: rgba(153, 25, 0, 60);
 }
 
 #horizontal_two {
-    width: 1000px;
+    width: auto;
     height: 10px;
     margin-top: 0;
-    background-color: rgba(0, 113, 153, 60);
-    float: right;
-    position: relative;
-    top: -20px;
+    background-color: rgba(186, 0, 0, 73);
+    position: absolute;
+    bottom: 0px;
 }
