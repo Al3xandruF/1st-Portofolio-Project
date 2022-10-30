@@ -8,7 +8,9 @@ font-family: 'Space Mono', monospace;
 
 body {
     font-family: 'Space Mono', monospace;
-    background-image: url('assets/images/moog_one_1.jpg')
+    background-image: url('/assets/images/moog_one_2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #logo {
@@ -16,7 +18,7 @@ body {
     font-size: 4rem;
     text-align: center;
     text-decoration: none;
-    color: rgba(186, 109, 0, 73);
+    color: rgba(153, 25, 0, 60);
     word-spacing: 1rem;
     display: flex;
     justify-content: center;
@@ -31,7 +33,6 @@ body {
     margin-bottom: 50px;
     display: flex;
     justify-content: space-evenly;
-    
 }
 
 #menu a {
@@ -56,6 +57,7 @@ img {
     height: auto;
     object-fit: contain;
     background: no-repeat;
+    opacity: .5;
 }
 
 #inventors_section {
@@ -63,6 +65,7 @@ img {
     margin-top: 2%;
     padding-right: 1.9%;
     margin-bottom: 0;
+    opacity: .5;
 }
 
 .inventors_main {
@@ -109,6 +112,7 @@ h2 {
     float: left;
     margin-top: 2%;
     margin-bottom: 10%;
+    opacity: .5;
 }
 
 .videos_main {
