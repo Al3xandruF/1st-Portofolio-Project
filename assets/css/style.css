@@ -19,6 +19,7 @@ body {
     text-align: center;
     text-decoration: none;
     color: rgba(153, 25, 0, 60);
+    background-color: white;
     word-spacing: 1rem;
     display: flex;
     justify-content: center;
@@ -37,7 +38,7 @@ body {
 
 #menu a {
     text-decoration: none;
-    color: black;
+    color: rgba(0, 113, 173, 68);
 }
 
 #menu li {
