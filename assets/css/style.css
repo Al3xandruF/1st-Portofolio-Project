@@ -11,6 +11,7 @@ body {
     background-image: url('/assets/images/moog_one_2.jpg');
     background-size: contain;
     background-repeat: no-repeat;
+    background-position-y: 15.1rem;
 }
 
 #logo {
@@ -18,7 +19,7 @@ body {
     font-size: 4rem;
     text-align: center;
     text-decoration: none;
-    color: rgba(153, 25, 0, 60);
+    color: rgba(0, 94, 168, 66);
     background-color: white;
     word-spacing: 1rem;
     display: flex;
@@ -38,7 +39,7 @@ body {
 
 #menu a {
     text-decoration: none;
-    color: rgba(0, 113, 173, 68);
+    color: rgba(186, 109, 0, 73);
 }
 
 #menu li {
@@ -47,10 +48,10 @@ body {
 
 #horizontal_one {
     width: auto;
-    height: 10px;
+    height: 5px;
     display: flex;
     justify-content: center;
-    background-color: rgba(186, 109, 0, 73);
+    background-color: rgba(0, 94, 168, 66);
 }
 
 img {
@@ -66,13 +67,13 @@ img {
     height: 800px;
     padding-left: 1.7%;
     padding-right: 1.7%;
+    margin-top: 2%;
+    margin-bottom: 0;
     overflow-x: hidden;
     overflow-y: auto ;
-    color: rgba(200, 201, 204, 80);
+    color: rgba(250, 248, 212, 98);
     float: right;
-    margin-top: 2%;
-    padding-right: 1.9%;
-    margin-bottom: 0;
+    clear: both;
 }
 
 .olson {
@@ -111,8 +112,33 @@ h2 {
     text-align: center;
     overflow-x: hidden;
     overflow-y: auto;
-    color: rgba(200, 201, 204, 80);
+    color: rgba(250, 248, 212, 98);
+    margin-top: 2%;
+    margin-bottom: 10%;
+    position:absolute;
+}
+
+#opacity_inventors {
+    background-color: rgba(168, 6, 0, 66);
+    width: 800px;
+    height: 800px;
+    opacity: .5;
+    float: right;
+    position: relative;
+    padding-left: 1.7%;
+    padding-right: 1.7%;
+    margin-top: 2%;
+    margin-bottom: 0;
+    display: flex;
+}
+
+#opacity_documentaries {
+    background-color: rgba(168, 6, 0, 66);
+    width: 350px;
+    height: 800px;
+    opacity: .5;
     float: left;
     margin-top: 2%;
     margin-bottom: 10%;
+    display: flex;
 }
