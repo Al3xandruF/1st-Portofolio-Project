@@ -58,18 +58,9 @@ img {
     height: auto;
     object-fit: contain;
     background: no-repeat;
-    opacity: .5;
 }
 
 #inventors_section {
-    float: right;
-    margin-top: 2%;
-    padding-right: 1.9%;
-    margin-bottom: 0;
-    opacity: .5;
-}
-
-.inventors_main {
     font-family: 'Space Mono', monospace, 'sans-serif';
     width: 800px;
     height: 800px;
@@ -78,7 +69,10 @@ img {
     overflow-x: hidden;
     overflow-y: auto ;
     color: rgba(200, 201, 204, 80);
-    background-color: rgba(153, 25, 0, 60);
+    float: right;
+    margin-top: 2%;
+    padding-right: 1.9%;
+    margin-bottom: 0;
 }
 
 .olson {
@@ -109,14 +103,8 @@ h2 {
     margin-top: 0;
 }
 
-#videos_section {
-    float: left;
-    margin-top: 2%;
-    margin-bottom: 10%;
-    opacity: .5;
-}
 
-.videos_main {
+#documentaries_section {
     font-family: 'Space Mono', 'sans-serif';
     width: 350px;
     height: 800px;
@@ -124,5 +112,7 @@ h2 {
     overflow-x: hidden;
     overflow-y: auto;
     color: rgba(200, 201, 204, 80);
-    background-color: rgba(153, 25, 0, 60);
+    float: left;
+    margin-top: 2%;
+    margin-bottom: 10%;
 }
