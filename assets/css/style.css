@@ -72,8 +72,8 @@ img {
     overflow-x: hidden;
     overflow-y: auto ;
     color: rgba(250, 248, 212, 98);
-    float: right;
-    clear: both;
+    position: absolute;
+    left: 500px;
 }
 
 .olson {
@@ -116,6 +116,7 @@ h2 {
     margin-top: 2%;
     margin-bottom: 10%;
     position:absolute;
+    left: 0px;
 }
 
 #opacity_inventors {
