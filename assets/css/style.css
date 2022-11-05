@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bungee+Shade&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bungee+Shade&family=Space+Mono:ital@0;1&display=swap');
+
+
 
 /*
 font-family: 'Audiowide', cursive;
@@ -15,12 +17,11 @@ body {
 }
 
 #logo {
-    font-family: 'Bungee Shade', cursive, 'sans-serif';
+    font-family: 'Bungee Shade', 'sans-serif';
     font-size: 4rem;
     text-align: center;
     text-decoration: none;
     color: rgba(0, 94, 168, 66);
-    background-color: white;
     word-spacing: 1rem;
     display: flex;
     justify-content: center;
@@ -61,85 +62,88 @@ img {
     background: no-repeat;
 }
 
-#inventors_section {
-    font-family: 'Space Mono', monospace, 'sans-serif';
-    width: 800px;
-    height: 800px;
-    padding-left: 1.7%;
-    padding-right: 1.7%;
-    margin-top: 2%;
-    margin-bottom: 0;
-    overflow-x: hidden;
-    overflow-y: auto ;
-    color: rgba(250, 248, 212, 98);
-    position: absolute;
-    left: 500px;
-}
-
-.olson {
-    text-align: left;
-}
-
-.moog {
-    text-align: right;
-}
-
-.smith {
-    text-align: left;
-}
-
-.oberheim {
-    text-align: right;
-}
-
-.pearlman {
-    text-align: left;
-}
-
 h3 {
     margin: 0;
 }
 
-h2 {
-    margin-top: 0;
-}
-
-
-#documentaries_section {
-    font-family: 'Space Mono', 'sans-serif';
-    width: 350px;
-    height: 800px;
+#titles_center {
     text-align: center;
-    overflow-x: hidden;
-    overflow-y: auto;
-    color: rgba(250, 248, 212, 98);
-    margin-top: 2%;
-    margin-bottom: 10%;
-    position:absolute;
-    left: 0px;
 }
 
-#opacity_inventors {
-    background-color: rgba(168, 6, 0, 66);
+/*
+#inventors_opacity {
     width: 800px;
-    height: 800px;
+    height: 200px;
+    background-color: rgba(199, 0, 12, 78);
     opacity: .5;
-    float: right;
-    position: relative;
-    padding-left: 1.7%;
-    padding-right: 1.7%;
-    margin-top: 2%;
-    margin-bottom: 0;
+}
+*/
+
+#inventors_section {
     display: flex;
+    flex-direction: column;
+    
 }
 
-#opacity_documentaries {
-    background-color: rgba(168, 6, 0, 66);
-    width: 350px;
-    height: 800px;
-    opacity: .5;
-    float: left;
-    margin-top: 2%;
-    margin-bottom: 10%;
+#olson {
+    font-family: 'Space Mono', 'sans-serif';
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.olson_description {
+    font-family: 'Space Mono', 'sans-serif';
+    font-style: italic;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#moog {
+    font-family: 'Space Mono', 'sans-serif';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.moog_description {
+    font-family: 'Space Mono', 'sans-serif';
+    font-style: italic;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#smith {
+    font-family: 'Space Mono', 'sans-serif';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.smith_description {
+    font-family: 'Space Mono', 'sans-serif';
+    font-style: italic;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#oberheim {
+    font-family: 'Space Mono', 'sans-serif';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.oberheim_description {
+    font-family: 'Space Mono', 'sans-serif';
+    font-style: italic;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
 }
