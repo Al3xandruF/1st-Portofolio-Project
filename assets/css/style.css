@@ -19,7 +19,7 @@ body, html {
 
 #logo {
     font-family: 'Bungee Shade', 'sans-serif';
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
     text-decoration: none;
     color: rgba(126, 0, 133, 52);
@@ -32,9 +32,7 @@ body, html {
     font-family: 'Audiowide', cursive;
     font-size: 1.2rem;
     text-align: center;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
+    word-spacing: 5rem;
 }
 
 #menu a {
@@ -42,8 +40,11 @@ body, html {
     color: rgba(186, 109, 0, 73);
 }
 
-#menu li {
-    display: inline;
+#menu a:hover {
+    background-color: rgba(0, 94, 168, 66);
+    transition:0.2s;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 3px rgba(171, 48, 9, 67);
 }
 
 #horizontal_one {
@@ -151,7 +152,6 @@ body, html {
 #documentaries_section {
     display: flex;
     flex-direction: column;
-    /*background-color: rgba(0, 79, 148, 0.5);*/
     margin-top: 0;
     color: rgba(255, 244, 195, 100);
 }
@@ -164,7 +164,7 @@ body, html {
     margin-bottom: 6rem;
 }
 
-a:hover {
+#inventors_section a:hover {
     background-color: rgba(0, 94, 168, 66);
     transition:0.2s;
     border-radius: 5px;
