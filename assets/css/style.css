@@ -10,10 +10,7 @@ font-family: 'Space Mono', monospace;
 
 body {
     font-family: 'Space Mono', monospace;
-    background-image: url('/assets/images/moog_one_2.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-y: 15.1rem;
+    margin: 0;
 }
 
 #logo {
@@ -32,8 +29,6 @@ body {
     font-size: 1.2rem;
     text-align: center;
     list-style: none;
-    margin-top: 1%;
-    margin-bottom: 50px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -53,36 +48,31 @@ body {
     display: flex;
     justify-content: center;
     background-color: rgba(0, 94, 168, 66);
+    margin: 0px 20px 0px 20px;
 }
 
-img {
+#inventors_section img {
     width: 180px;
     height: auto;
     object-fit: contain;
     background: no-repeat;
 }
 
-h3 {
+#inventors_section h3 {
     margin: 0;
 }
 
 #titles_center {
     text-align: center;
+    margin-bottom: 5rem;
 }
-
-/*
-#inventors_opacity {
-    width: 800px;
-    height: 200px;
-    background-color: rgba(199, 0, 12, 78);
-    opacity: .5;
-}
-*/
 
 #inventors_section {
     display: flex;
     flex-direction: column;
-    
+    justify-content: space-around;
+    background-color: rgba(199, 0, 12, 0.5);
+    margin-top: 0;
 }
 
 #olson {
@@ -95,7 +85,6 @@ h3 {
     font-family: 'Space Mono', 'sans-serif';
     font-style: italic;
     display: flex;
-    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
 }
@@ -111,7 +100,6 @@ h3 {
     font-family: 'Space Mono', 'sans-serif';
     font-style: italic;
     display: flex;
-    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
 }
@@ -127,7 +115,6 @@ h3 {
     font-family: 'Space Mono', 'sans-serif';
     font-style: italic;
     display: flex;
-    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
 }
@@ -138,12 +125,36 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-bottom: 6rem;
 }
 .oberheim_description {
     font-family: 'Space Mono', 'sans-serif';
     font-style: italic;
     display: flex;
-    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+}
+
+.line_separator {
+    background-color: rgba(186, 109, 0, 73);
+    width: 70%;
+    height: 3px;
+    margin: 100px auto;
+    text-decoration: wavy;
+}
+
+
+#documentaries_section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(199, 0, 12, 0.5);
+    margin-top: 0;
+}
+
+#videos_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
 }
