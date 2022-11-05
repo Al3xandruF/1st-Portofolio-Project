@@ -8,9 +8,13 @@ font-family: 'Bungee Shade', cursive;
 font-family: 'Space Mono', monospace;
 */
 
-body {
-    font-family: 'Space Mono', monospace;
+body, html {
+    font-family: 'Space Mono', 'sans-serif';
     margin: 0;
+    background-image: url('/assets/images/background_image.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #logo {
@@ -71,8 +75,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: rgba(199, 0, 12, 0.5);
+    /*background-color: rgba(199, 0, 12, 0.5);*/
     margin-top: 0;
+    color: rgba(255, 244, 195, 100);
 }
 
 #olson {
@@ -147,8 +152,9 @@ body {
 #documentaries_section {
     display: flex;
     flex-direction: column;
-    background-color: rgba(199, 0, 12, 0.5);
+    /*background-color: rgba(0, 79, 148, 0.5);*/
     margin-top: 0;
+    color: rgba(255, 244, 195, 100);
 }
 
 #videos_flex {
@@ -156,5 +162,5 @@ body {
     flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
 }
