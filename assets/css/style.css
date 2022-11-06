@@ -24,14 +24,20 @@ body {
 
 #menu {
     font-family: 'Audiowide', cursive;
+    list-style: none;
     font-size: 1.2rem;
-    text-align: center;
     word-spacing: 5rem;
+    text-align: center;
 }
 
 #menu a {
     text-decoration: none;
     color: rgba(186, 109, 0, 73);
+}
+
+#menu li {
+    display: inline-block;
+    padding: 0px 16px 16px 16px;
 }
 
 #menu a:hover {
@@ -166,3 +172,7 @@ body {
 }
 
 
+#form_center {
+    text-align: center;
+    border: 0;
+}
