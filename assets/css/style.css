@@ -173,6 +173,12 @@ body {
 
 
 #form_center {
+    color: rgba(255, 244, 195, 100);
     text-align: center;
-    border: 0;
+    margin: 200px 0px 0px 0px;
+
+}
+
+#form_center input {
+    color: rgba(0, 94, 168, 66);
 }
