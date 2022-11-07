@@ -176,9 +176,10 @@ body {
     color: rgba(255, 244, 195, 100);
     text-align: center;
     margin: 200px 0px 0px 0px;
-
 }
 
-#form_center input {
-    color: rgba(0, 94, 168, 66);
+#form_center input:hover {
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 94, 168, 66);
 }
+
