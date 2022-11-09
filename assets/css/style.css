@@ -176,7 +176,8 @@ body {
     text-align: center;
     width: 500px;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 100px;
+    margin-bottom: 80px;
     padding: 5px 100px 40px 100px;
 }
 
@@ -232,7 +233,7 @@ input[type=submit]:hover {
     text-decoration: none;
     text-align: center;
     word-spacing: 30px;
-    font-size: 25px;
+    font-size: 27px;
     padding: 10px 0px 30px 0px;
 }
 
