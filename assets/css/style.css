@@ -49,7 +49,11 @@ margin : 0 20px 0 20px;
     color: rgba(172, 186, 189, 74);
     text-align: justify;
     text-indent: 100px;
+    padding: 20px;
     margin: 100px 100px;
+}
+#page_introduction:hover {
+    box-shadow : 0 0 5px 5px rgb(186, 109, 0, 1);
 }
 #inventors_section img {
 width : 180px;
@@ -169,7 +173,7 @@ box-shadow : 0 0 3px 3px rgb(186, 109, 0, 1);
 #wallpapers_download {
     color: rgba(172, 186, 189, 74);
     text-align: center;
-    margin: 100px 0px 0px 0px;
+    margin: 150px 0px 0px 0px;
 }
 #form_center {
 color : rgb(255, 244, 195, 1);
