@@ -45,6 +45,12 @@ justify-content : center;
 background-color : rgb(0, 94, 168, 1);
 margin : 0 20px 0 20px;
 }
+#page_introduction {
+    color: rgba(172, 186, 189, 74);
+    text-align: justify;
+    text-indent: 100px;
+    margin: 100px 100px;
+}
 #inventors_section img {
 width : 180px;
 height : auto;
@@ -160,6 +166,11 @@ transition : 0.2s;
 border-radius : 5px;
 box-shadow : 0 0 3px 3px rgb(186, 109, 0, 1);
 }
+#wallpapers_download {
+    color: rgba(172, 186, 189, 74);
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+}
 #form_center {
 color : rgb(255, 244, 195, 1);
 text-align : center;
@@ -190,13 +201,13 @@ background-color : rgb(186, 109, 0, 1);
 transition : 0.3s;
 }
 #synths_img {
-clear : both;
+clear: both;
 line-height : 0;
 column-count : 2;
 display : flex;
 justify-content : center;
 flex-wrap : wrap;
-margin : 70px 20px;
+margin : 0px 20px 50px;
 }
 #synths_img img {
 width : 500px;
@@ -218,5 +229,5 @@ margin : 50px auto 30px auto;
 }
 hr {
 border : rgb(186, 109, 0, 1) solid 1px;
-margin : 0 200px 0 200px;
+margin : 0 100px 0 100px;
 }
