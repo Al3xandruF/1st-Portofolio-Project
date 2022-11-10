@@ -171,7 +171,6 @@ body {
 
 
 #form_center {
-    background-color: ;
     color: rgba(255, 244, 195, 100);
     text-align: center;
     width: 500px;
@@ -241,5 +240,4 @@ input[type=submit]:hover {
 hr {
     border: 1px solid rgba(186, 109, 0, 73);
     margin: 0px 200px 0px 200px;
-    background-color: rgba(186, 109, 0, 73);
 }
