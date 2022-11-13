@@ -86,9 +86,8 @@ height: auto;
 #inventors_section {
 display : flex;
 flex-direction : column;
-justify-content : space-around;
-margin-top : 0;
-padding-bottom: 6rem;
+margin : auto;
+padding : 0px 20px 96px 20px;
 color : rgb(255, 244, 195, 1);
 }
 .inventors_main_div {
@@ -236,6 +235,9 @@ margin : 0 100px 0 100px;
     #menu {
         font-size : .9rem;
         }
+    #social_media {
+        column-gap: 28px;
+    }
 }
 
 
