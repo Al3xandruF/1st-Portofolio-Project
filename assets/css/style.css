@@ -215,12 +215,15 @@ margin : 0 100px 0 100px;
         padding: 10px;
         }
     #menu {
-        font-family : 'Audiowide', cursive;
         font-size : 1rem;
         }
 
     #page_introduction {
         font-size: 14px;
+    }
+
+    #inventors_section > h2 {
+        font-size: 22px;
     }
     
 }
@@ -237,6 +240,10 @@ margin : 0 100px 0 100px;
         }
     #social_media {
         column-gap: 28px;
+    }
+
+    #inventors_section > h2 {
+        font-size: 20px;
     }
 }
 
