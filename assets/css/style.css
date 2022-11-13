@@ -193,11 +193,12 @@ transform : scale(1.02);
 }
 #social_media {
 text-decoration : none;
-text-align : center;
-word-spacing : 30px;
 font-size : 27px;
 padding : 10px 0 30px 0;
 margin : 50px auto 30px auto;
+display: flex;
+justify-content: center;
+column-gap: 35px;
 }
 hr {
 border : rgb(186, 109, 0, 1) solid 1px;
@@ -221,7 +222,6 @@ margin : 0 100px 0 100px;
 
     #page_introduction {
         font-size: 14px;
-
     }
     
 }
