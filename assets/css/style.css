@@ -17,12 +17,14 @@ text-decoration : none;
 text-align: center;
 word-spacing : 1rem;
 padding: 10px;
+margin-bottom: 15px;
 }
 #menu {
 font-family : 'Audiowide', cursive;
 list-style : none;
 font-size : 1.2rem;
 padding: 0;
+margin: auto;
 display: flex;
 justify-content: center;
 }
@@ -49,15 +51,13 @@ margin : 0 20px 0 20px;
 }
 #page_introduction {
 color : rgba(172, 186, 189, 74);
-width : 800px;
+max-width : 70%;
 height : auto;
-text-align : center;
 text-indent : 32px;
 margin : 50px auto;
 padding : 30px;
 display : flex;
-align-items : center;
-justify-content : center;
+justify-content: center;
 }
 #page_introduction:hover {
 box-shadow : 0 0 5px 5px rgb(186, 109, 0, 1);
@@ -133,11 +133,6 @@ transition : 0.2s;
 border-radius : 5px;
 box-shadow : 0 0 3px 3px rgb(186, 109, 0, 1);
 }
-#wallpapers_download {
-color: rgba(172, 186, 189, 74);
-text-align: center;
-margin: 70px 0px 20px;
-}
 #form_center {
 color : rgb(255, 244, 195, 1);
 text-align : center;
@@ -171,6 +166,11 @@ transition : 0.3s;
 textarea:hover {
 border-radius : 5px;
 box-shadow : 1px 2px 3px 1px rgb(0, 94, 168, 1);
+}
+#wallpapers_download {
+color: rgba(172, 186, 189, 74);
+text-align: center;
+margin: 70px 0px 20px;
 }
 #synths_img {
 clear: both;
@@ -216,12 +216,13 @@ margin : 0 100px 0 100px;
         }
     #menu {
         font-family : 'Audiowide', cursive;
-        list-style : none;
         font-size : 1rem;
-        display : flex;
-        justify-content : center;
-        margin: auto;
         }
+
+    #page_introduction {
+        font-size: 14px;
+
+    }
     
 }
 
@@ -232,14 +233,8 @@ margin : 0 100px 0 100px;
         word-spacing : .5rem;
         padding: 5px;
         }
-
     #menu {
-        font-family : 'Audiowide', cursive;
-        list-style : none;
-        font-size : .8rem;
-        display : flex;
-        justify-content : center;
-        margin: auto;
+        font-size : .9rem;
         }
 }
 
