@@ -8,12 +8,13 @@ background-position : center;
 background-repeat : no-repeat;
 background-size : cover;
 }
+
 #logo {
 font-family : 'Bungee Shade', 'sans-serif';
 color : rgb(126, 0, 133, 1);
 font-size : 3rem;
 text-decoration : none;
-text-align : center;
+text-align: center;
 word-spacing : 1rem;
 padding: 10px;
 }
@@ -21,15 +22,15 @@ padding: 10px;
 font-family : 'Audiowide', cursive;
 list-style : none;
 font-size : 1.2rem;
-display : flex;
-justify-content : center;
+padding: 0;
+display: flex;
+justify-content: center;
 }
 #menu a {
 text-decoration : none;
 color : rgb(186, 109, 0, 1);
 }
 #menu li {
-display : inline-block;
 padding : 16px;
 }
 #menu a:hover {
@@ -202,3 +203,45 @@ hr {
 border : rgb(186, 109, 0, 1) solid 1px;
 margin : 0 100px 0 100px;
 }
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 620px) {
+    #logo {
+        font-size : 2.5rem;
+        word-spacing : .5rem;
+        padding: 10px;
+        }
+    #menu {
+        font-family : 'Audiowide', cursive;
+        list-style : none;
+        font-size : 1rem;
+        display : flex;
+        justify-content : center;
+        margin: auto;
+        }
+    
+}
+
+
+@media screen and (max-width: 420px) {
+    #logo {
+        font-size : 2rem;
+        word-spacing : .5rem;
+        padding: 5px;
+        }
+
+    #menu {
+        font-family : 'Audiowide', cursive;
+        list-style : none;
+        font-size : .8rem;
+        display : flex;
+        justify-content : center;
+        margin: auto;
+        }
+}
+
+
+
