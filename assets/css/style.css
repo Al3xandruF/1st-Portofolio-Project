@@ -62,7 +62,7 @@ justify-content: center;
 #page_introduction:hover {
 box-shadow : 0 0 5px 5px rgb(186, 109, 0, 1);
 }
-#inventors_section img {
+.img_size {
 width : 180px;
 height : auto;
 object-fit : contain;
@@ -78,10 +78,6 @@ color : rgb(255, 244, 195, 1);
 }
 .names{
 margin: auto;
-}
-.img_size {
-width: 180px;
-height: auto;
 }
 #inventors_section {
 display : flex;
@@ -222,8 +218,26 @@ margin : 0 100px 0 100px;
         font-size: 14px;
     }
 
-    #inventors_section > h2 {
+    .titles_center {
         font-size: 22px;
+    }
+
+    .names {
+        font-size: 18px;
+    }
+
+    .inventors_description {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .fa-solid {
+        font-size: 18px;
+    }
+
+    .img_size {
+        width: 160px;
+        height: auto;
     }
     
 }
@@ -242,8 +256,26 @@ margin : 0 100px 0 100px;
         column-gap: 28px;
     }
 
-    #inventors_section > h2 {
+    .titles_center {
         font-size: 20px;
+    }
+
+    .names {
+        font-size: 16px;
+    }
+
+    .inventors_description {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .fa-solid {
+        font-size: 17px;
+    }
+
+    .img_size {
+        width: 140px;
+        height: auto;
     }
 }
 
