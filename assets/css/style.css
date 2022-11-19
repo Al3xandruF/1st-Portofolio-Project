@@ -350,16 +350,20 @@ hr {
 
 @media screen and (max-width: 920px) {
     #videos_flex {
-        display: flex;
-        flex-wrap: wrap;
-        margin: auto 200px 96px 200px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        text-align: center;
+        margin: auto;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     #videos_flex {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        text-align: center;
         margin: auto;
     }
 }
@@ -367,6 +371,5 @@ hr {
 @media screen and (max-width: 550px) {
     #synths_img img {
         width: 100%;
-        margin: 1%;
     }
 }
