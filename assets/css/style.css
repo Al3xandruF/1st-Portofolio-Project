@@ -322,9 +322,9 @@ hr {
 
 @media screen and (max-width: 420px) {
     #logo {
-        font-size: 2rem;
+        font-size: 1.8rem;
         word-spacing: .5rem;
-        padding: 5px;
+        padding: 3px;
     }
 
     #menu {
