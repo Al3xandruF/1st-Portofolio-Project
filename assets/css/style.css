@@ -142,7 +142,7 @@ body {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
 }
 
 #videos_flex h3 {
@@ -352,9 +352,9 @@ hr {
     #videos_flex {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 30px;
         text-align: center;
-        margin: auto;
+        grid-gap: 30px;
+        margin: auto auto 3rem auto;
     }
 }
 
@@ -364,7 +364,7 @@ hr {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
         text-align: center;
-        margin: auto;
+        margin: auto auto 3rem auto;
     }
 }
 
