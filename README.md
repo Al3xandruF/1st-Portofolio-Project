@@ -8,7 +8,7 @@ The History Of Synthesizers Website is designed to be a responsive website on a 
 
 
 ## CONTENTS
-<hr>
+---
 
 - User Experience (UX)
     - Website Information and Goals
@@ -30,6 +30,13 @@ The History Of Synthesizers Website is designed to be a responsive website on a 
         - How to Fork
         - How to Clone
 - Testing
+
+### User Experience (UX)
+---
+
+**History Of Synthesizers** is an ***'In Progress'*** **Encyclopedia** for people passionate about **Synthesizers** and their contribution to Electronic Music, the Inventors and their Inventions and watching some of the most prolific Documentaries. Future plans include a dedicated page to some **Arcade Games** for users to enjoy and have fun.
+
+
 
 
 
