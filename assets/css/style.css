@@ -255,6 +255,13 @@ hr {
 
 /* Media Queries */
 
+@media screen and (min-width: 1024px){
+    .inventors_description {
+        text-align: center;
+    }
+    
+}
+
 @media screen and (max-width: 650px) {
     #logo {
         font-size: 2.5rem;
