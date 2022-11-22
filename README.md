@@ -16,7 +16,6 @@ The History Of Synthesizers Website is designed to be a responsive website on a 
     - Color Scheme
     - Typography
     - Imagery
-    - Wireframes
 - Features
     - General Features on Each Page
     - Future Implementations
